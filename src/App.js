@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import Layout from './components/Layout';
+import Main from './components/Main';
+import StarWars from './components/StarWars';
+import Hades2 from './components/Hades2'
+import RDR2 from './components/RDR2'
+import TLOU from './components/TLOU'
+import ASMirage from './components/AC-Mirage'
+import Cyberpunk2077 from './components/Cyberpunk2077';
+import AtomicHeart from './components/Atomic-Heart';
+import Starfield from './components/Starfield'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<Routes>
+  <Route path='/' element={<Layout/>}>
+    <Route path='/' element={<Main/>}></Route>
+    <Route path='StarWars' element={<StarWars/>}></Route>
+    <Route path='Hades2' element={<Hades2/>}></Route>
+    <Route path='RDR2' element={<RDR2/>}></Route>
+    <Route path='TLOU' element={<TLOU/>}></Route>
+    <Route path='AC-Mirage' element={<ASMirage/>}></Route>
+    <Route path='Cyberpunk2077' element={<Cyberpunk2077/>}></Route>
+    <Route path='Atomic-Heart' element={<AtomicHeart/>}></Route>
+    <Route path='Starfield' element={<Starfield/>}></Route>
+  </Route>
+</Routes>
+
+</>
   );
 }
 
