@@ -19,7 +19,7 @@ import Skyrim from '../assets/images/Skyrim.jpg'
 import Witcher3 from '../assets/images/witcher3.jpg'
 import Cyberpunk2077 from '../assets/images/cyberpunk2077.jpg'
 import RedDead2 from '../assets/images/RedDead2.jpg'
-import MetroExodus from '../assets/images/MetroExodus.jpeg'
+import GOW from '../assets/images/god.jpg'
 import MK1 from '../assets/images/MK1.png'
 import StarField from '../assets/images/StarField.jpg'
 import ASMirage from '../assets/images/ASMirage.jpeg'
@@ -30,7 +30,7 @@ const images = [
     src: 'https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/843c3f01d7514294f7e414eae4fd9cdc.png',
     text: 'Вас ждёт новое приключение с Кэлом Кестисом в игре от студии Respawn Entertainment, приключенческом экшене с видом от третьего лица.',
     mani: 'от 3 499 P',
-   img: 'http://localhost:3000/static/media/SW.7fdb0b63ecbc76dfc1d2.jpeg'
+   img: 'https://cdn.mos.cms.futurecdn.net/RD2s9FGPu7DyUsh6woRtQf.jpg'
   },
   {
     src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atomic_Heart_logo.svg/800px-Atomic_Heart_logo.svg.png?20230219161324',
@@ -48,44 +48,48 @@ const images = [
     src: 'https://upload.wikimedia.org/wikipedia/commons/6/67/The_Last_of_Us_Logo_2.png',
     text: ' Боритесь и выживайте Погрузитесь в драматичную историю о незабываемых персонажах в игре «Одни из нас» – обладательнице более 200 наград «Игра года», уже доступной на ПК.',
     mani: 'от 3 499 P',
-    img: 'http://localhost:3000/static/media/the-lust-of-us.72b4a51063c508806d52.jpeg'
+    img: 'https://hyperpc.ru/images/support/articles/the-last-of-us/content/the-lust-of-us-part-1-banner_webp.jpg'
   },
   {
     src: 'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/eldenring_new.png',
     text: ' НОВЫЙ ФЭНТЕЗИЙНЫЙ РОЛЕВОЙ БОЕВИК. Восстань, погасшая душа! Междуземье ждёт своего повелителя. Пусть благодать приведёт тебя к Кольцу Элден. ',
     mani: 'от 3 499 P',
-    img: 'http://localhost:3000/static/media/elden-ring.2e2168d640c88e7e1e5e.jpeg'
+    img: 'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg'
   }
  ];
   const images1 = [
-    'http://localhost:3000/static/media/atomic-heart.e16778c831ced74f2fe1.jpeg',
-    'http://localhost:3000/static/media/Dead-Island-2.a6ddfd19494d563bcfa6.jpeg',
-    'http://localhost:3000/static/media/the-lust-of-us.72b4a51063c508806d52.jpeg',
-    'http://localhost:3000/static/media/elden-ring.2e2168d640c88e7e1e5e.jpeg',
-    "http://localhost:3000/static/media/SW.7fdb0b63ecbc76dfc1d2.jpeg",
+    'https://www.godisageek.com/wp-content/uploads/Atomic-Heart-review.jpg',
+    'https://games.mail.ru/hotbox/content_files/game/2022/08/24/1d056e9c046d46e4a16c5fa6b9559a6d.jpg',
+    'https://hyperpc.ru/images/support/articles/the-last-of-us/content/the-lust-of-us-part-1-banner_webp.jpg',
+    'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg',
+    'https://cdn.mos.cms.futurecdn.net/RD2s9FGPu7DyUsh6woRtQf.jpg',
   ];
   const images2 = [
-    'http://localhost:3000/static/media/Dead-Island-2.a6ddfd19494d563bcfa6.jpeg',
-    'http://localhost:3000/static/media/the-lust-of-us.72b4a51063c508806d52.jpeg',
-    'http://localhost:3000/static/media/elden-ring.2e2168d640c88e7e1e5e.jpeg',
-    "http://localhost:3000/static/media/SW.7fdb0b63ecbc76dfc1d2.jpeg",
-    'http://localhost:3000/static/media/atomic-heart.e16778c831ced74f2fe1.jpeg',
+    'https://games.mail.ru/hotbox/content_files/game/2022/08/24/1d056e9c046d46e4a16c5fa6b9559a6d.jpg',
+    'https://hyperpc.ru/images/support/articles/the-last-of-us/content/the-lust-of-us-part-1-banner_webp.jpg',
+    'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg',
+    'https://cdn.mos.cms.futurecdn.net/RD2s9FGPu7DyUsh6woRtQf.jpg',
+    'https://www.godisageek.com/wp-content/uploads/Atomic-Heart-review.jpg',
   ];
   const images3 = [
-    'http://localhost:3000/static/media/the-lust-of-us.72b4a51063c508806d52.jpeg',
-    'http://localhost:3000/static/media/elden-ring.2e2168d640c88e7e1e5e.jpeg',
-    "http://localhost:3000/static/media/SW.7fdb0b63ecbc76dfc1d2.jpeg",
-    'http://localhost:3000/static/media/atomic-heart.e16778c831ced74f2fe1.jpeg',
-    'http://localhost:3000/static/media/Dead-Island-2.a6ddfd19494d563bcfa6.jpeg',
+   
+    'https://hyperpc.ru/images/support/articles/the-last-of-us/content/the-lust-of-us-part-1-banner_webp.jpg',
+    'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg',
+    'https://cdn.mos.cms.futurecdn.net/RD2s9FGPu7DyUsh6woRtQf.jpg',
+    'https://www.godisageek.com/wp-content/uploads/Atomic-Heart-review.jpg',
+    'https://games.mail.ru/hotbox/content_files/game/2022/08/24/1d056e9c046d46e4a16c5fa6b9559a6d.jpg',
   ];
   const images4 = [
-    'http://localhost:3000/static/media/elden-ring.2e2168d640c88e7e1e5e.jpeg',
-    "http://localhost:3000/static/media/SW.7fdb0b63ecbc76dfc1d2.jpeg",
-    'http://localhost:3000/static/media/atomic-heart.e16778c831ced74f2fe1.jpeg',
-    'http://localhost:3000/static/media/Dead-Island-2.a6ddfd19494d563bcfa6.jpeg',
-    'http://localhost:3000/static/media/the-lust-of-us.72b4a51063c508806d52.jpeg',
+    
+    'https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg',
+    'https://cdn.mos.cms.futurecdn.net/RD2s9FGPu7DyUsh6woRtQf.jpg',
+    'https://www.godisageek.com/wp-content/uploads/Atomic-Heart-review.jpg',
+    'https://games.mail.ru/hotbox/content_files/game/2022/08/24/1d056e9c046d46e4a16c5fa6b9559a6d.jpg',
+    'https://hyperpc.ru/images/support/articles/the-last-of-us/content/the-lust-of-us-part-1-banner_webp.jpg',
   ];
 const Main = () => {
+
+
 
   const [index, setIndex] = useState(0);
 
@@ -183,7 +187,7 @@ const Main = () => {
                 <p className='Game-p'>5 873,04 ₽</p>
               </div>
               </NavLink>
-              <NavLink> <div className='Game'>
+              <NavLink to='./ResidentEvil4'> <div className='Game'>
                 <img alt='no' src={ResidentEvil4} ></img>
                 <p className='Game-text'>БАЗОВАЯ ИГРА</p>
                 <h1>Resident Evil 4 Remake</h1>
@@ -204,7 +208,7 @@ const Main = () => {
                 <p className='Game-p'>4 999,99 ₽</p>
               </div>
               </NavLink>
-              <NavLink> <div className='Game'>
+              <NavLink to='./EldenRing'> <div className='Game'>
                 <img alt='no' src={EldenRing2} ></img>
                 <p className='Game-text'>БАЗОВАЯ ИГРА</p>
                 <h1>Elden Ring</h1>
@@ -240,7 +244,7 @@ const Main = () => {
                 <p className='Game-p'>5 949,99 ₽</p>
               </div>
               </NavLink>
-              <NavLink> <div className='Game'>
+              <NavLink to='./MortalKombat1'> <div className='Game'>
                 <img alt='no' src={MK1} ></img>
                 <p className='Game-text'>ПРЕДЗАКАЗ</p>
                 <h1>Mortal Kombat 1</h1>
@@ -269,7 +273,7 @@ const Main = () => {
                 <p className='Game-p'>499,99 ₽</p>
               </div>
               </NavLink>
-              <NavLink> <div className='Game'>
+              <NavLink to='./TheWithcer3'> <div className='Game'>
                 <img alt='no' src={Witcher3} ></img>
                 <p className='Game-text'>БАЗОВАЯ ИГРА</p>
                 <h1>The Witcher 3: Wild Hunt</h1>
@@ -290,11 +294,11 @@ const Main = () => {
                 <p className='Game-p'>2 499,99 ₽</p>
               </div>
               </NavLink>
-              <NavLink> <div className='Game'>
-                <img alt='no' src={MetroExodus} ></img>
+              <NavLink to='./GodOfWar'> <div className='Game'>
+                <img alt='no' src={GOW} ></img>
                 <p className='Game-text'>БАЗОВАЯ ИГРА</p>
-                <h1>Metro: Exodus</h1>
-                <p className='Game-p'>1 499,99 ₽</p>
+                <h1>God of War</h1>
+                <p className='Game-p'>1 999,99 ₽</p>
               </div>
               </NavLink>
              

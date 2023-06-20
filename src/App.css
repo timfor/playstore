@@ -71,7 +71,7 @@ padding-right: 30px;
 }
 main {
   position: relative;
-  height: 2600px;
+  height: 3000px;
   background: rgb(18, 18, 18);
 }
 .Cards {
@@ -286,7 +286,7 @@ transform: translateX(-200px);
 }
 .info img {
   width: 350px;
-  height: 169px;
+ 
 
 }
 .info p {

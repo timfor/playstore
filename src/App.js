@@ -10,6 +10,11 @@ import ASMirage from './components/AC-Mirage'
 import Cyberpunk2077 from './components/Cyberpunk2077';
 import AtomicHeart from './components/Atomic-Heart';
 import Starfield from './components/Starfield'
+import GodOfWar from './components/GodOfWar';
+import ResidentEvil4 from './components/ResidentEvil4';
+import MortalKombat1 from './components/MortalKombat1';
+import TheWithcer3 from './components/TheWithcer3';
+import EldenRing from './components/EldenRing'
 function App() {
   return (
 <>
@@ -24,6 +29,11 @@ function App() {
     <Route path='Cyberpunk2077' element={<Cyberpunk2077/>}></Route>
     <Route path='Atomic-Heart' element={<AtomicHeart/>}></Route>
     <Route path='Starfield' element={<Starfield/>}></Route>
+    <Route path='GodOfWar' element={<GodOfWar/>}></Route>
+    <Route path='ResidentEvil4' element={<ResidentEvil4/>}></Route>
+    <Route path='MortalKombat1' element={<MortalKombat1/>}></Route>
+    <Route path='TheWithcer3' element={<TheWithcer3/>}></Route>
+    <Route path='EldenRing' element={<EldenRing/>}></Route>
   </Route>
 </Routes>
 
